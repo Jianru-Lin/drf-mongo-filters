@@ -1,5 +1,5 @@
-import fields
-import filters
+from .fields import *
+from .filters import *
 from .filtersets import *
 from .backend import MongoFilterBackend
 
